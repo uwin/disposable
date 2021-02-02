@@ -53,7 +53,9 @@ function genUsername() {
 }
 
 function genPassword() {
-  return randomString(LIMIT);
+    var textPass = randomString(LIMIT);
+    alert(textPass);
+  return textPass;
 }
 
 function randomLetter() {
